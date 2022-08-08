@@ -1,0 +1,49 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+}
+
+td {
+    height: 4rem;
+    width: 8rem;
+    font-size: 1.5;
+    border-radius: 0.5rem;
+    margin: 1rem;
+}
+input {
+    background-color: rgb(0,1,1);
+    color: white;
+    font-size: 1.8rem;
+    height: 3rem;
+    text-align: center;
+    width: 32.5rem;
+    border-radius: 0.5rem;
+}
+
+.symbol {
+    background-color:rgb(112,0,50);
+    font-size: 1.5rem;
+    color: white;
+}
+
+.num {
+    background-color: rgb(206,206,207);
+    font-size: 1.5rem;
+    color: black;
+    font-weight: bolder;
+}
+
+.equal {
+    background-color: rgb(1,129,129);
+    font-size: 1.5rem;
+    color: black;
+    font-weight: bolder;
+}
+
+table {
+    margin: 0 auto;
+}
