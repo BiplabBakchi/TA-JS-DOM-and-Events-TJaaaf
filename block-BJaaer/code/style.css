@@ -91,3 +91,33 @@ input[type='text'] {
 .terms {
   display: inline-block;
 }
+
+/*My Style*/
+
+.modal {
+  background-color: #fff;
+  position: absolute;
+  top: 20%;
+  bottom: 20%;
+  left: 30%;
+  right: 30%;
+  padding: 3% 2%;
+  display: none;
+}
+.close {
+  position: absolute;
+  top: 2%;
+  right: 2%;
+  font-size: 1.5rem;
+  cursor: pointer;
+  background-color: rgb(247, 20, 20);
+  color: rgb(5, 0, 0);
+}
+h2 {
+  font-size: 2.4rem;
+  font-weight: bolder;
+}
+p {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
