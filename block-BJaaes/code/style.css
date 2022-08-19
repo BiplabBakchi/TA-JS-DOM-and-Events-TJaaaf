@@ -81,6 +81,9 @@ input {
   font-size: 1rem;
   padding: 0.2rem;
   border-radius: 0.1rem;
+  border: 0;
+  outline: black;
+  background-color: rgb(232,240,254);
 }
 
 .error input {
