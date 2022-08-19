@@ -51,7 +51,8 @@ main {
 }
 
 form {
-  margin-top: 2rem;
+  width: 25rem;
+  margin-top: 3rem;
   padding: 1rem;
   background-color: white;
 }
@@ -59,7 +60,7 @@ form {
 label {
   display: block;
   padding-top: 0.2rem;
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 
 small {
@@ -69,14 +70,22 @@ small {
 button {
   margin: 1rem 0;
   width: 100%;
-  font-size: 0.8rem;
+  height: 2rem;
+  font-size: 1rem;
   padding: 0.2rem;
 }
 
 input {
   width: 100%;
-  font-size: 0.8rem;
+  height: 2rem;
+  font-size: 1rem;
   padding: 0.2rem;
+  border-radius: 0.1rem;
 }
 
-
+.error input {
+  outline: solid rgb(253, 61, 61);
+}
+.success input {
+  outline: solid rgb(26, 214, 26);
+}
