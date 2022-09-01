@@ -1,0 +1,174 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*Custom Style*/
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*Flex*/
+
+.flex {
+  display: flex;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+/*My Style*/
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  color: rgb(56, 185, 236);
+  padding: 1rem;
+}
+button {
+  padding: 0.5rem;
+  margin: 1rem 0.4rem;
+  background-color: black;
+  color: white;
+}
+button:hover {
+  background-color: white;
+  color: black;
+}
+input {
+  display: block;
+  margin: 1rem auto;
+  height: 2rem;
+  width: 14rem;
+}
+
+li {
+  flex: 0 1 30%;
+  border: 2px solid #d6bcfa;
+  height: 250px;
+  border-radius: 10px;
+  background-color: white;
+  padding: 10px 20px;
+  text-align: center;
+  margin: 10px;
+  box-shadow: 2px 6px 12px 3px rgba(0, 0, 0, 0.1);
+}
+
+.item-center {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.container {
+  max-width: 1300px;
+  width: 100%;
+  padding: 0 50px;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 700;
+  padding-left: 10px;
+}
+
+p {
+  font-size: 15px;
+  font-weight: 500;
+  padding: 20px 0;
+}
+
+a {
+  display: inline-block;
+  padding: 4px 50px;
+  width: 200px;
+  font-size: 15px;
+  font-weight: 500;
+  color:rgb(255, 255, 255);
+  text-transform: capitalize;
+  background-color: rgb(0, 0, 0);
+  border-radius: 2px;
+  border: 2px solid black;
+  margin-bottom: 15px;
+  height: 2rem;
+  text-decoration: none;
+  line-height: 1rem;
+  font-size: 1rem;
+}
+a:hover {
+  color:black;
+  background-color:white;
+}
+
+img {
+  width: 80px;
+  border-radius: 50%;
+  margin-right: 15px; 
+}
+
+.header {
+  background-color: rgb(65,117,212);
+  padding: 40px 30px;
+}
+
+div {
+  display: flex;
+  align-items: center;
+}
+
