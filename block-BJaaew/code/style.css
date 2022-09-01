@@ -68,24 +68,32 @@ body {
 }
 
 /*My Style*/
+header {
+  background-color: rgb(18, 166, 224);
+  width: 100%;
+  padding: 1rem 0;
+}
 
 h1 {
   text-align: center;
   font-size: 2rem;
   font-weight: 700;
-  color: rgb(56, 185, 236);
+  color: rgb(255, 255, 255);
   padding: 1rem;
 }
+
 button {
   padding: 0.5rem;
   margin: 1rem 0.4rem;
   background-color: black;
   color: white;
 }
+
 button:hover {
   background-color: white;
   color: black;
 }
+
 input {
   display: block;
   margin: 1rem auto;
@@ -106,14 +114,15 @@ li {
 }
 
 .item-center {
-  align-items: center;
+ align-items: center;
 }
+
 .justify-center {
   justify-content: center;
 }
 
 .space-between {
-  justify-content: space-between;
+ justify-content: space-between;
 }
 
 .container {
@@ -151,6 +160,7 @@ a {
   line-height: 1rem;
   font-size: 1rem;
 }
+
 a:hover {
   color:black;
   background-color:white;
@@ -171,4 +181,9 @@ div {
   display: flex;
   align-items: center;
 }
+
+.active {
+  background-color: white;
+  color: black;
+} 
 
